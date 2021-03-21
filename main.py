@@ -75,7 +75,8 @@ cost_2 = a.propagate(w,b,X,Y)
 
 """
 
-Test = LR.Logistic_Regression(height=1440,width = 1080,data_file_name = "Data",source_file_name = "Source")
+Test = LR.Logistic_Regression(height=64,width = 64,data_file_name = "Data",source_file_name = "Source")
+
 
 Test.Modelling(Test.data_X,Test.data_Y,print_cost = True)
 
